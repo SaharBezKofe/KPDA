@@ -1,0 +1,24 @@
+andrey@MoronWithAsusVivoBook:~/KPDA$ ./diffda t0a t0b
+1d0
+< A
+3d1
+< D
+6,7c4
+< H
+< J
+---
+> I
+9a7
+> S
+andrey@MoronWithAsusVivoBook:~/KPDA$ diff t0a t0b
+1d0
+< A
+3d1
+< D
+6,7c4
+< H
+< J
+---
+> I
+9a7
+> S

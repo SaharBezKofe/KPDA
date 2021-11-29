@@ -1,0 +1,22 @@
+andrey@MoronWithAsusVivoBook:~/KPDA$ diff ota otb   
+0a1   
+> I   
+2d2   
+< B   
+4,5c4,5   
+< C   
+< C   
+---   
+> V   
+> V   
+andrey@MoronWithAsusVivoBook:~/KPDA$ ./diffda ota otb   
+0a1   
+> I   
+2d2   
+< B   
+3a4,5   
+> V   
+> V   
+5,6d6   
+< C   
+< C  
